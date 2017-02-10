@@ -14,7 +14,7 @@
 # Please read the manual first to understand what each switch does :)
 
 # Default value of indentation
-defaultIndent: "\t"
+defaultIndent: "  "
 
 # default file extension of backup file (if original is overwritten with -w switch)
 # for example, if your .tex file is called
@@ -22,7 +22,7 @@ defaultIndent: "\t"
 # and you specify the backupExtension as BACKUP.bak then your 
 # backup file will be
 #       myfileBACKUP.bak
-backupExtension: .bak
+backupExtension: .backup
 
 # only one backup per file; if onlyOneBackUp is 0 then the
 # number on the extension increments by 1 each time
@@ -36,7 +36,7 @@ onlyOneBackUp: 0
 # say at most 3; in which case, they can change this switch.
 # If maxNumberOfBackUps is set to 0 (or less) then infinitely 
 # many backups are possible, unless onlyOneBackUp is switched on
-maxNumberOfBackUps: 0
+maxNumberOfBackUps: 3
 
 # some users may wish to cycle through back up files, for example, 
 # with maxNumberOfBackUps: 4, they may wish to delete the oldest
@@ -62,7 +62,7 @@ alwaysLookforSplitBraces: 1
 alwaysLookforSplitBrackets: 1
 
 # remove trailing whitespace from all lines 
-removeTrailingWhitespace: 0
+removeTrailingWhitespace: 1
 
 # environments that have tab delimiters, add more 
 # as needed
